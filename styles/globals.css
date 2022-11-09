@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+  scroll-behavior: smooth !important;
+}
+
 
 @layer base {
   body {
@@ -25,6 +29,6 @@ li {
 }
 
 button {
-  @apply shadow-xl shadow-gray-400 uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
+  @apply rounded-xl shadow-xl shadow-gray-400 uppercase bg-gradient-to-r from-[#bb8336] to-[#68491e] text-white
 }
 }
