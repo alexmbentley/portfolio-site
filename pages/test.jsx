@@ -37,11 +37,7 @@ const test = () => {
             and more recently with desktop publishing software like Aldus
             PageMaker including versions of Lorem Ipsum.
           </p>
-          <a
-            href="https://github.com/fireclint/property-finder"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="" target="_blank" rel="noreferrer">
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a href="" target="_blank" rel="noreferrer">
