@@ -78,8 +78,6 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* right */}
-
           {!formSub ? (
             <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
               <div className="p-4">
@@ -141,8 +139,8 @@ const Contact = () => {
           ) : (
             <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 relative flex items-center justify-center ">
               <div className="">
-                <h3 className="text-3xl text-black tracking-wider text-center">
-                  Form submitted
+                <h3 className="lg:text-3xl sm:text-lg text-black tracking-wider text-center">
+                  Form submitted, expect a response within 48 hours.
                 </h3>
               </div>
             </div>
