@@ -1,10 +1,42 @@
 import React from 'react';
+import { AiOutlineMail } from 'react-icons/ai';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
 const Main = () => {
   return (
     <div className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p2 flex justify-center items-center">
-        <div></div>
+        <div>
+          <p className="uppercase text-sm tracking-widest text-gray-600">
+            Currently open for work
+          </p>
+          <h1 className="py-4 text-gray-700">
+            <span className="text-[#bb8336]">Alex's</span> Portfolio
+          </h1>
+          <h1 className="py-2 text-gray-700">Junior full-stack developer</h1>
+          <p className="py-4 text-gray-600 max-w-[70%] m-auto">
+            I am an aspiring software developer currently based in South
+            Yorkshrie but willing to relocate for work. I have Just completed a
+            13 week full-stack coding bootcamp based around Javascript during
+            which I learned Javascript fundementals, as well as some front and
+            back-end technologies. See skills for more.
+          </p>
+          <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-115 ease-in duration-300">
+              <FaLinkedinIn />
+            </div>
+            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-115 ease-in duration-300">
+              <AiOutlineMail />
+            </div>
+            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-115 ease-in duration-300">
+              <FaGithub />
+            </div>
+            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-115 ease-in duration-300">
+              <BsFillPersonLinesFill />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
