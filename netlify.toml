@@ -1,0 +1,8 @@
+[functions]
+  node_bundler = "esbuild"
+  external_node_modules = [ "@ampproject/toolbox-optimizer", "sharp"]
+
+  [build]
+  command = "npm run build"
+  functions = "out_functions"
+  publish = "out_publish"
