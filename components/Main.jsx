@@ -2,6 +2,7 @@ import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import Link from 'next/link';
 
 const Main = () => {
   return (
@@ -20,20 +21,23 @@ const Main = () => {
             Yorkshrie but willing to relocate for work. I have Just completed a
             13 week full-stack coding bootcamp based around Javascript during
             which I learned Javascript fundementals, as well as some front and
-            back-end technologies. See skills for more.
+            back-end technologies. See about and skills for more information.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaLinkedinIn />
+              <Link href="https://www.linkedin.com/in/alexmbentley/">
+                <FaLinkedinIn />
+              </Link>
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <AiOutlineMail />
+              <Link href="https://github.com/alexmbentley">
+                <FaGithub />
+              </Link>
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaGithub />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <BsFillPersonLinesFill />
+              <Link href="mailto:alexandermbentley@gmail.com">
+                <AiOutlineMail />
+              </Link>
             </div>
           </div>
         </div>

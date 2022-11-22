@@ -92,12 +92,7 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/">
-                <Image
-                  src="/../public/assets/logo.png"
-                  alt="/"
-                  width="87"
-                  height="35"
-                />
+                <Image src={logo} alt="/" width="87" height="35" />
               </Link>
               <div
                 onClick={handleNav}
@@ -144,16 +139,19 @@ const Navbar = () => {
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaLinkedinIn />
+                  <Link href="https://www.linkedin.com/in/alexmbentley/">
+                    <FaLinkedinIn />
+                  </Link>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaGithub />
+                  <Link href="https://github.com/alexmbentley">
+                    <FaGithub />
+                  </Link>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiOutlineMail />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <BsFillPersonLinesFill />
+                  <Link href="mailto:alexandermbentley@gmail.com">
+                    <AiOutlineMail />
+                  </Link>
                 </div>
               </div>
             </div>
