@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import testImg from '../public/assets/projects/test.jpeg';
+import ncGames from '../public/assets/projects/nc-games.jpg';
 import ProjectItem from './ProjectItem';
 const Projects = () => {
   return (
@@ -13,23 +13,23 @@ const Projects = () => {
         <h2 className="py-4">What I've created</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Test Denzel1"
-            backgroundImg={testImg}
-            projectUrl="/test"
+            title="NC Games"
+            backgroundImg={ncGames}
+            projectUrl="/NCGames"
           />
           <ProjectItem
             title="Test Denzel1"
-            backgroundImg={testImg}
+            backgroundImg={ncGames}
             projectUrl="/denzel"
           />
           <ProjectItem
             title="Test Denzel1"
-            backgroundImg={testImg}
+            backgroundImg={ncGames}
             projectUrl="/denzel"
           />
           <ProjectItem
             title="Test Denzel1"
-            backgroundImg={testImg}
+            backgroundImg={ncGames}
             projectUrl="/denzel"
           />
         </div>

@@ -17,8 +17,8 @@ const test = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Test</h2>
-          <h3>React JS / Tailwind / PSQL</h3>
+          <h2 className="py-2">NC Games - Full-Stack</h2>
+          <h3>React JS / Bootstrap / PSQL</h3>
         </div>
       </div>
 
@@ -27,20 +27,41 @@ const test = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            This is the first full stack project I worked on. It is a game
+            reviews site. First I created the backend with a data set of game
+            reviews from which I created a database with PostgreSQL. During this
+            project I learned a lot about SQL queries, accessing information I
+            wanted to show on my front-end.
           </p>
-          <a href="" target="_blank" rel="noreferrer">
-            <button className="px-8 py-2 mt-4 mr-8">Code</button>
+          <br />
+          <p>
+            For the front-end I used React JS as I wanted to have reusable
+            components in order to reduce the amount of code written so it is
+            easier to follow. I used axios for my API requests as once again it
+            is easier to read and allowed me to use less code. I used Bootstrap
+            in order to use the grid and card functions to style the blog posts.
+          </p>
+          <br />
+          <p>Initial load may take a while as the back-end API starts up.</p>
+          <a
+            href="https://github.com/alexmbentley/nc-games"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-8 py-2 mt-4 mr-8">FE Code</button>
           </a>
-          <a href="" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/alexmbentley/Backend-Games-Project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-8 py-2 mt-4 mr-8">BE Code</button>
+          </a>
+          <a
+            href="https://prismatic-hummingbird-1be272.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="px-8 py-2 mt-4">Demo</button>
           </a>
         </div>
@@ -52,13 +73,13 @@ const test = () => {
                 <RiRadioButtonFill className="pr-1" /> React
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Tailwind
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Javascript
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Firebase
+                <RiRadioButtonFill className="pr-1" /> Bootstrap
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> PostgeSQL
               </p>
             </div>
           </div>
