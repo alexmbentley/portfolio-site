@@ -27,11 +27,11 @@ const test = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This is the first full stack project I worked on. It is a game
-            reviews site. First I created the backend with a data set of game
+            This is the first full stack project I worked on, it is a game
+            reviews site. First, I created the backend with a data set of game
             reviews from which I created a database with PostgreSQL. During this
-            project I learned a lot about SQL queries, accessing information I
-            wanted to show on my front-end.
+            project I learned a lot about SQL queries and accessing information
+            I wanted to show on my front-end.
           </p>
           <br />
           <p>

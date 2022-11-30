@@ -2,7 +2,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import ncGames from '../public/assets/projects/nc-games.jpg';
+import pos from '../public/assets/projects/pos-ipad.jpg';
 import ProjectItem from './ProjectItem';
+
 const Projects = () => {
   return (
     <div id="projects" className="w-full">
@@ -18,19 +20,9 @@ const Projects = () => {
             projectUrl="/NCGames"
           />
           <ProjectItem
-            title="Test Denzel1"
-            backgroundImg={ncGames}
-            projectUrl="/denzel"
-          />
-          <ProjectItem
-            title="Test Denzel1"
-            backgroundImg={ncGames}
-            projectUrl="/denzel"
-          />
-          <ProjectItem
-            title="Test Denzel1"
-            backgroundImg={ncGames}
-            projectUrl="/denzel"
+            title="POJS - POS System"
+            backgroundImg={pos}
+            projectUrl="/POS"
           />
         </div>
       </div>

@@ -15,7 +15,7 @@ const Navbar = () => {
   const router = useRouter();
 
   useEffect(() => {
-    if (router.asPath === '/test' || router.asPath === '/NCGames') {
+    if (router.asPath === '/POS' || router.asPath === '/NCGames') {
       setNavBg('transparent');
       setLinkColor('#ecf0f3');
     } else {

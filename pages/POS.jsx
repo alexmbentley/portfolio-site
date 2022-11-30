@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import ncGames from '../public/assets/projects/nc-games.jpg';
+import pos from '../public/assets/projects/pos-ipad.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -13,7 +13,7 @@ const test = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={ncGames}
+          src={pos}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
@@ -27,21 +27,29 @@ const test = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            Final full-stack Northcoders project. This project is a web-based
+            point of sales system designed for tablet devices and laptops
+            created with React. This POS system features an email authentication
+            where users can sign up with their email and have all their users,
+            items and table plan saved. We used Firebase Auth to achieve the
+            login and linked the users data into Firestore.
           </p>
-          <a href="" target="_blank" rel="noreferrer">
+          <br />
+          <p>
+            The front end styling was handled with Bootstrap 5 as the time I had
+            to style this project was short so it benefited me to have built in
+            options for different buttons and text. Another benefit of using
+            Bootstrapwas the fact that I was able to use the grid system in
+            order to quickly sort the layout of our items and users pages.
+          </p>
+          <br />
+          <p>Demo coming soon...</p>
+          <a
+            href="https://github.com/alexmbentley/pos-till-FE"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
-          </a>
-          <a href="" target="_blank" rel="noreferrer">
-            <button className="px-8 py-2 mt-4">Demo</button>
           </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
@@ -59,6 +67,9 @@ const test = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Firebase
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Bootstrap 5
               </p>
             </div>
           </div>

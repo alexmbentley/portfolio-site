@@ -5,6 +5,8 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import emailjs from '@emailjs/browser';
+import contactMe from '../public/assets/contact-me.jpeg';
+import Image from 'next/image';
 
 const Contact = () => {
   const form = useRef();
@@ -45,9 +47,9 @@ const Contact = () => {
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full">
               <div>
-                <img
+                <Image
                   className="rounded-xl hover:scale-105 ease-in duration-300"
-                  src="https://source.unsplash.com/1NTOQHBRegA/960x540"
+                  src={contactMe}
                   alt="contact"
                 />
               </div>
