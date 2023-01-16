@@ -24,8 +24,7 @@ const test = () => {
 
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
         <div className="col-span-4">
-          <p>Project</p>
-          <h2>Overview</h2>
+          <h2 className="mb-2">Overview</h2>
           <p>
             Final full-stack Northcoders project. This project is a web-based
             point of sales system designed for tablet devices and laptops

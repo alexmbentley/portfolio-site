@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import ncGames from '../public/assets/projects/nc-games.jpg';
+import ChainCheck from '../public/assets/projects/ChainCheck.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -13,12 +13,12 @@ const test = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={ncGames}
+          src={ChainCheck}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">NC Games - Full-Stack</h2>
-          <h3>React JS / Bootstrap / PSQL</h3>
+          <h2 className="py-2">Test</h2>
+          <h3>React JS / Tailwind / Firebase</h3>
         </div>
       </div>
 
@@ -26,38 +26,30 @@ const test = () => {
         <div className="col-span-4">
           <h2 className="mb-2">Overview</h2>
           <p>
-            This is the first full stack project I worked on, it is a game
-            reviews site. First, I created the backend with a data set of game
-            reviews from which I created a database with PostgreSQL. During this
-            project I learned a lot about SQL queries and accessing information
-            I wanted to show on my front-end.
+            A fully responsive cryptocurrency app that allows users to check the
+            prices of their favourite coins and save them to a watchlist when
+            signed in. This project was created using React and styled with
+            Tailwind. The information on-site is from the free CoinGecko API.
           </p>
           <br />
-          <p>
-            For the front-end I used React JS as I wanted to have reusable
-            components in order to reduce the amount of code written so it is
-            easier to follow. I used axios for my API requests as once again it
-            is easier to read and allowed me to use less code. I used Bootstrap
-            in order to use the grid and card functions to style the blog posts.
+          <p className="mb-4">
+            This project honed my skills around styling and making the app fully
+            responsive using Tailwind. As well as this I got more practice at
+            making API calls and displaying data using ChartJS as it was my
+            first time using this package. My Firebase knowledge was also
+            improved through creating the watchlist segment of this project and
+            linking it to the signed in user.
           </p>
-          <br />
-          <p>Initial load may take a while as the back-end API starts up.</p>
+
           <a
-            href="https://github.com/alexmbentley/nc-games"
+            href="https://github.com/alexmbentley/crypto-project"
             target="_blank"
             rel="noreferrer"
           >
-            <button className="px-8 py-2 mt-4 mr-8">FE Code</button>
+            <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="https://github.com/alexmbentley/Backend-Games-Project"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button className="px-8 py-2 mt-4 mr-8">BE Code</button>
-          </a>
-          <a
-            href="https://prismatic-hummingbird-1be272.netlify.app/"
+            href="https://chaincheck.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -72,13 +64,16 @@ const test = () => {
                 <RiRadioButtonFill className="pr-1" /> React
               </p>
               <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Tailwind
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Javascript
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Bootstrap
+                <RiRadioButtonFill className="pr-1" /> ChartJS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> PostgeSQL
+                <RiRadioButtonFill className="pr-1" /> Firebase
               </p>
             </div>
           </div>
