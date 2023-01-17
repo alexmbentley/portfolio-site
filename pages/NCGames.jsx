@@ -17,7 +17,7 @@ const test = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">NC Games - Full-Stack</h2>
+          <h2 className="py-2">NC Games</h2>
           <h3>React JS / Bootstrap / PSQL</h3>
         </div>
       </div>
@@ -79,6 +79,9 @@ const test = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> PostgeSQL
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Express
               </p>
             </div>
           </div>

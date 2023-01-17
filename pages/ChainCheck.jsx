@@ -17,7 +17,7 @@ const test = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Test</h2>
+          <h2 className="py-2">ChainCheck</h2>
           <h3>React JS / Tailwind / Firebase</h3>
         </div>
       </div>
@@ -27,9 +27,10 @@ const test = () => {
           <h2 className="mb-2">Overview</h2>
           <p>
             A fully responsive cryptocurrency app that allows users to check the
-            prices of their favourite coins and save them to a watchlist when
-            signed in. This project was created using React and styled with
-            Tailwind. The information on-site is from the free CoinGecko API.
+            prices of their favourite coins and save and delete them to/from a
+            watchlist when signed in. This project was created using React and
+            styled with Tailwind. The information on-site is from the free
+            CoinGecko API.
           </p>
           <br />
           <p className="mb-4">
