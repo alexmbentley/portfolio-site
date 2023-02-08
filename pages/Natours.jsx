@@ -40,14 +40,14 @@ const Natours = () => {
             projects to a design brief.
           </p>
           <a
-            href="https://github.com/alexmbentley/nc-games"
+            href="https://github.com/alexmbentley/advanced-css-course"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="https://github.com/alexmbentley/advanced-css-course"
+            href="https://mock-tours.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
