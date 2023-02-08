@@ -4,9 +4,9 @@ import React from 'react';
 
 const ProjectItem = ({ title, backgroundImg, projectUrl, techStack }) => {
   return (
-    <div className="relative flex items-center  justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#bb8336] to-[#68491e]">
+    <div className="relative flex items-center  justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r hover:duration-150 from-[#473f34] to-[#ffae3d] ">
       <Image
-        className="rounded-xl group-hover:opacity-80"
+        className="rounded-xl group-hover:opacity-60"
         src={backgroundImg}
         alt="test"
         objectFit="cover"
@@ -16,8 +16,10 @@ const ProjectItem = ({ title, backgroundImg, projectUrl, techStack }) => {
           {title}
         </h3>
         <p className="pb-4 pt-2 text-white text-center">{techStack}</p>
+      </div>
+      <div className="hidden group-hover:block absolute top-[77%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
         <Link href={projectUrl}>
-          <p className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
+          <p className="text-center py-3 px-10 w-70 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
             More info
           </p>
         </Link>
