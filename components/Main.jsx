@@ -13,7 +13,7 @@ const Main = () => {
             Currently open for work
           </p>
           <h1 className="py-4 text-gray-700">
-            <span className="text-[#bb8336]">Alex's</span> Portfolio
+            <span className="text-[#a245ff]">Alex's</span> Portfolio
           </h1>
           <h1 className="py-2 text-gray-700">Junior full-stack developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
@@ -24,21 +24,23 @@ const Main = () => {
             back-end technologies. See about and skills for more information.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <Link href="https://www.linkedin.com/in/alexmbentley/">
+            <Link href="https://www.linkedin.com/in/alexmbentley/">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaLinkedinIn />
-              </Link>
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <Link href="https://github.com/alexmbentley">
+              </div>
+            </Link>
+
+            <Link href="https://github.com/alexmbentley">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaGithub />
-              </Link>
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <Link href="mailto:alexandermbentley@gmail.com">
+              </div>
+            </Link>
+
+            <Link href="mailto:alexandermbentley@gmail.com">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <AiOutlineMail />
-              </Link>
-            </div>
+              </div>
+            </Link>
           </div>
         </div>
       </div>

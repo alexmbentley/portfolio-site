@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import pos from '../public/assets/projects/pos-ipad.jpg';
+import pos from '../public/assets/projects/pos.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -18,7 +18,7 @@ const POS = () => {
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-10">
           <h2 className="py-2">POJS - POS System</h2>
-          <h3>React JS / Tailwind / PSQL</h3>
+          <h3>React JS / Firebase / SASS</h3>
         </div>
       </div>
 
@@ -27,28 +27,35 @@ const POS = () => {
           <h2 className="mb-2">Overview</h2>
           <p>
             Final full-stack Northcoders project. This project is a web-based
-            point of sales system designed for tablet devices and laptops
-            created with React. This POS system features an email authentication
-            where users can sign up with their email and have all their users,
-            items and table plan saved. We used Firebase Auth to achieve the
-            login and linked the users data into Firestore.
+            point of sales system designed to be used by bars and restaurants.
+            This POS system features email authentication where users can sign
+            up with their email and have all their users, items and tables
+            saved. We used Firebase Auth to achieve the login and linked the
+            users data into Firestore allowing users to save cheques to tables
+            and users across devices to access wherever they have an internet
+            connection.
           </p>
           <br />
           <p>
-            The front end styling was handled with Bootstrap 5 as the time I had
-            to style this project was short so it benefited me to have built in
-            options for different buttons and text. Another benefit of using
-            Bootstrapwas the fact that I was able to use the grid system in
-            order to quickly sort the layout of our items and users pages.
+            The front end styling was handled mainly with CSS Grid and Flexbox
+            using SASS as the processor. Using the grid system allowed me to
+            stay consistent through different components giving a more natural
+            feel when going through different components in the app.
           </p>
           <br />
-          <p>Demo coming soon...</p>
+          <p>
+            Please use the reccommended login for testing. On the staff login
+            page the access codes are 123.
+          </p>
           <a
-            href="https://github.com/alexmbentley/pos-till-FE"
+            href="https://github.com/alexmbentley/point-of-sale"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
+          </a>
+          <a href="https://pojs.netlify.app" target="_blank" rel="noreferrer">
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </a>
         </div>
         <div className="col-span-4 md:col-span-1">
@@ -60,16 +67,16 @@ const POS = () => {
                   <RiRadioButtonFill className="pr-1" /> React
                 </p>
                 <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Tailwind
+                  <RiRadioButtonFill className="pr-1" /> Firebase
                 </p>
                 <p className="text-gray-600 py-2 flex items-center">
                   <RiRadioButtonFill className="pr-1" /> Javascript
                 </p>
                 <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Firebase
+                  <RiRadioButtonFill className="pr-1" /> CSS
                 </p>
                 <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Bootstrap 5
+                  <RiRadioButtonFill className="pr-1" /> SASS
                 </p>
               </div>
             </div>

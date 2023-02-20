@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import ncGames from '../public/assets/projects/nc-games.jpg';
+import ncGames from '../public/assets/projects/nc-games.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 

@@ -38,7 +38,7 @@ const Contact = () => {
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto p-5 pt-20 w-full">
-        <p className="text-xl tracking-widest uppercase text-[#bb8336]">
+        <p className="text-xl tracking-widest uppercase text-[#a245ff]">
           Contact
         </p>
         <h2 className="py-4">Get in touch</h2>
@@ -63,21 +63,23 @@ const Contact = () => {
               <div>
                 <p className="uppercase pt-8">Connect</p>
                 <div className="flex items-center justify-between py-4">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <Link href="https://www.linkedin.com/in/alexmbentley/">
+                  <Link href="https://www.linkedin.com/in/alexmbentley/">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaLinkedinIn />
-                    </Link>
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <Link href="https://github.com/alexmbentley">
+                    </div>
+                  </Link>
+
+                  <Link href="https://github.com/alexmbentley">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaGithub />
-                    </Link>
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <Link href="mailto:alexandermbentley@gmail.com">
+                    </div>
+                  </Link>
+
+                  <Link href="mailto:alexandermbentley@gmail.com">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <AiOutlineMail />
-                    </Link>
-                  </div>
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -154,7 +156,7 @@ const Contact = () => {
         <div className="flex justify-center py-12">
           <Link href="/">
             <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
-              <HiOutlineChevronDoubleUp className="text-[#bb8336]" size={30} />
+              <HiOutlineChevronDoubleUp className="text-[#a245ff]" size={30} />
             </div>
           </Link>
         </div>
