@@ -15,7 +15,12 @@ const Navbar = () => {
   const router = useRouter();
 
   useEffect(() => {
-    if (router.asPath === '/POS' || router.asPath === '/NCGames') {
+    if (
+      router.asPath === '/POS' ||
+      router.asPath === '/NCGames' ||
+      router.asPath === '/Natours' ||
+      router.asPath === '/ChainCheck'
+    ) {
       setNavBg('transparent');
       setLinkColor('#ecf0f3');
     } else {
@@ -49,7 +54,9 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image src={logo} alt="/" width="90" height="45" />
+        <Link href="/">
+          <Image src={logo} alt="/" width="90" height="45" />
+        </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
